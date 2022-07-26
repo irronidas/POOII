@@ -7,7 +7,10 @@ public class Contexto {
 		this.estrategia = estrategia;
 	}
 	
-	public String ejecuteStrategia() {
-		return estrategia.horario(null);
+	public String ejecuteStrategia1() {
+		return estrategia.TipoAtencion(null);
+	}
+	public int ejecuteStrategia2() {
+		return estrategia.horario(0);
 	}
 }
