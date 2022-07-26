@@ -13,7 +13,7 @@ public class Main {
 		medidador.setClienteA(clienteA);
 		medidador.setClienteB(modWeb);
 		
-		clienteA.send(" cita medica");
+		clienteA.send(" Confirmo!");
 		modWeb.send(" Hora confirmada!!");
 		
 	}

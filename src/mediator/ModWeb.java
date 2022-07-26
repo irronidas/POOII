@@ -13,6 +13,6 @@ public class ModWeb extends Cliente {
 	
 	@Override
 	public void messageRecived(String message) {
-		System.out.println("Estimados confirmo mi sistencia a la " + message);
+		System.out.println("Estimados confirmo mi sistencia " + message);
 	}
 }

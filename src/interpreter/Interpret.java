@@ -7,9 +7,10 @@ public class Interpret {
 
 	public static void main(String[] args) {
 
-		String romano = "M";
+		String romano = "H";
 		Contexto contexto = new Contexto(romano);
 		ArrayList<Expression> tree = new ArrayList<Expression>();
+		
 		tree.add(new OnExpression());
 		
 		Iterator<Expression> it = tree.iterator();

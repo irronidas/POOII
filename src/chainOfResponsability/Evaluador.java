@@ -20,7 +20,6 @@ public class Evaluador implements IAprobador {
 		next.solicituHora(hora);
 	}
 
-
 	public void setNext(IAprobador aprobador) {
 		next = aprobador;
 		

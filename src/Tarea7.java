@@ -1,6 +1,6 @@
-
 public class Tarea7 {
 
+	//atributos
 	private static String nombre = "Jaime";
 	private static String apellido = "Bustamante";
 	private static String rut = "15123456-k";
@@ -15,6 +15,7 @@ public class Tarea7 {
 		this.fono = fono;
 	}
 
+	//Métodos set y get
 	public String getNombre() {
 		return nombre;
 	}	
@@ -49,7 +50,7 @@ public class Tarea7 {
 
 	public static void main(String[] args) {
 
-		Contexto contexto = new Contexto(new Hora_adulto());
+		Contexto contexto = new Contexto(new Hora_menor());
 		System.out.println("Estimado " + nombre+" " + apellido +", "+"cedula " + rut + ", con dirección " + direccion + ", telefono"+" "+ fono +"\n"+
 				"Su hora agendada es del tipo de " + contexto.ejecuteStrategia1() +"\n" + 
 				"Su horario de atencion es de las " + contexto.ejecuteStrategia2() + " Hrs.");

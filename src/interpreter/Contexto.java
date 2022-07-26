@@ -5,9 +5,9 @@ public class Contexto {
 	protected String input;
 	protected String output;
 
-	public Contexto(String M) {
+	public Contexto(String H) {
 
-		input = M;
+		input = H;
 		output = "";
 	}
 
